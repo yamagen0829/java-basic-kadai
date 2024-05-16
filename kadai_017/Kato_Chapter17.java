@@ -8,6 +8,9 @@ abstract public class Kato_Chapter17 {
 	//住所を表すフィールド
 	public String address;
 	
+	//setGivenNameフィールド
+	abstract public void setGivenName();
+	
     //出力メソッド
 	public void commonIntroduce() {
 		familyName = "加藤";
@@ -19,6 +22,7 @@ abstract public class Kato_Chapter17 {
 	abstract public void eachIntroduce();
 	
 	public void execIntroduce() {
+		setGivenName();
 		commonIntroduce();
 		eachIntroduce();
 		System.out.println();

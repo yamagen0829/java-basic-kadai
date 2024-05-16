@@ -3,7 +3,7 @@ package kadai_017;
 public class KatoIchiro_Chapter17 extends Kato_Chapter17 {
 
 	//名を表すフィールドの値
-    public KatoIchiro_Chapter17(){
+    public void setGivenName (){
     	givenName = "一郎";
     }
     //抽象メソッド
